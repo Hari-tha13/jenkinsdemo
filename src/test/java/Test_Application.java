@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 
@@ -18,6 +19,7 @@ public class Test_Application {
     @Test
     public void test4(){
         System.out.println("test4");
+        Assert.fail();
     }
 
 
